@@ -31,8 +31,42 @@
 
     <h3>네트워크가 연결된 상태라면 현재 서비스되는 웹페이지 이동 가능</h3>
     <ul>
+        <!-- target 속성을 이용해서 _self로 하면 기존 탭으로 이동하고 _blank로 하면 새 탭으로 이동한다. -->
         <li><a href="https://naver.com">네이버로 이동</a></li>
+        <li><a href="https://google.com" target="_blank">구글로 이동</a></li>
     </ul>
+
+    <!-- 이미지 태그를 이용해서 링크를 걸 수 있다. -->
+    <a href="https://naver.com" target="_blank">
+        <img src="sample/image/bear.png" width="100px" height="150px" alt="곰사진">
+    </a>
+    
+    <hr>
+
+    <h3 id="menu">한 페이지 내에서 점프하는 앵커 만들기</h3>
+    <ul>
+        <li><a href="#content1">본문내용</a></li>
+        <li><a href="#content2">본문내용</a></li>
+        <li><a href="#content3">본문내용</a></li>
+    </ul>
+    <h4 id="content1">본문 내용 1</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut placeat repellat, dignissimos fuga enim non, officiis nam eveniet ipsum praesentium dolorum voluptas possimus eaque itaque adipisci! Fuga molestias pariatur hic?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos unde praesentium similique, ex consectetur culpa. Cupiditate perspiciatis rem ipsam dicta, natus et magnam atque debitis suscipit nihil esse aut dolores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis illum sed ex, culpa sapiente ea ut, architecto iure suscipit at, error facere facilis eum cumque animi alias delectus reiciendis laudantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos modi vitae, consectetur minus doloremque natus libero! Vitae pariatur natus est? Architecto provident amet voluptatibus molestias illum magni assumenda, maiores aliquam?</p>
+
+    <h4 id="content2">본문 내용 2</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, possimus atque quisquam perferendis saepe illo non, ipsum odio neque dignissimos hic, ex dolor omnis sed dolorem exercitationem eum. Soluta, ullam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam labore voluptate eveniet soluta. Exercitationem error dolorem nisi neque placeat repellat, tempora, ab omnis vero nihil dolor voluptatibus minus debitis officiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis quaerat sapiente libero laudantium magni expedita aliquam consectetur nemo atque, molestias voluptatem laborum blanditiis adipisci harum doloribus porro ducimus natus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam quas excepturi aut natus, doloremque aperiam libero reprehenderit quis, eveniet officiis consectetur veritatis. Id, explicabo possimus. Architecto ipsam quidem doloribus!</p>
+
+    <h4 id="content3">본문 내용 3</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, laudantium aspernatur et fugiat, itaque saepe numquam deleniti, molestiae consectetur dolores maiores aliquid libero at temporibus a voluptatem molestias. Ipsum, minus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis aperiam harum tempore et, distinctio nesciunt libero rem aut natus quis at saepe ipsa est eos omnis magnam quas quam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, excepturi vero. Eligendi aspernatur numquam, obcaecati at magnam corporis quos adipisci quo molestiae, cupiditate et? Rem deserunt a ullam voluptatibus ipsa.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt saepe architecto illo at, optio, fuga enim iusto suscipit odio dignissimos commodi sunt. Nulla, nobis nisi quam et asperiores dolores quibusdam?</p>
+    <a href="#menu">메뉴로 이동</a>
 
 </body>
 </html>
